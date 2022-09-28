@@ -30,7 +30,7 @@ const logIn = () => {
         }
         if (matchFound) {
             alert("Login Successful")
-            window.location.href = "search.html"
+            window.location.href = "allStudents.html"
         } else {
             errorDisplay.innerHTML = 'Incorrect Email or Password!'
             setTimeout(clearErrorMsg, 1000)
