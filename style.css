@@ -1,3 +1,7 @@
+body {
+    background-color: #EAF6F6;
+}
+
 .signUp-div {
     width: 295px;
     height: 610px;
@@ -35,7 +39,7 @@
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
     margin-top: -20px;
-    color: #a949e1;
+    color: #24a0ed;
 }
 
 .form-field {
@@ -80,17 +84,17 @@
     margin-top: -5px;
     color: #fff;
     text-align: center;
-    background: #a949e1;
+    background: #24a0ed;
     box-shadow: 8px 8px 8px #b1b1b1, -8px -8px 8px #fff;
     transition: 1s;
 }
 
 .login-btn:hover {
-    background: #6f0399
+    background: #24a0ed
 }
 
 .login-btn:active {
-    background: #6f0399;
+    background: #24a0ed;
 }
 
 .links {
