@@ -21,19 +21,21 @@
                 <small id="disp" style="color: red;"></small>
                 <div class="email-div">
                     <span class="fa fa-envelope"></span>
-                    <input type="email" id="Email" class="email-input" placeholder="Email" required>
+                    <input type="email" id="loginEmail" class="email-input" placeholder="Email" required>
                 </div>
                 <div class="password-div">
                     <span class="fa fa-lock"></span>
-                    <input type="password" id="Password" class="pass-input" placeholder="Password" required>
+                    <input type="password" id="loginPassword" class="pass-input" placeholder="Password" required>
                 </div>
             </div>
-            <button class="login-btn" onclick="logIn()">Login</button>
+            <button class="login-btn" id="loginBtn">Login</button>
             <div class="links">
                 <a href="#">Forgot password?</a> <strong>OR</strong> <a href="index.html">Create account</a>
             </div>
         </div>
     </center>
+
+    <script src="login.js"></script>
 </body>
 
 </html>
